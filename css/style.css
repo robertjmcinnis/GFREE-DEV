@@ -1,0 +1,96 @@
+html {
+	height:100%;
+background: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #9BFAF4),
+	color-stop(1, #0099FF)
+);
+background: -moz-linear-gradient(bottom, #9BFAF4 0%, #0099FF 100%);
+background: -webkit-linear-gradient(bottom, #9BFAF4 0%, #0099FF 100%);
+background: linear-gradient(to bottom, #9BFAF4 0%, #0099FF 100%);
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	text-align:center;
+}
+
+
+h1, h2 {
+font-family: 'Lobster', cursive;
+}
+
+h1 {
+	text-shadow: 0 0 20px rgb(255,255,220);
+}
+
+h2 {
+	color:rgb(180,255,255);
+}
+
+nav {
+	background:rgba(120,120,120,0.5);
+	border-radius: 10px;
+}
+
+.frame {
+width:960px;
+border-radius:10px;
+padding:10px;
+}
+
+#frame1 {
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E87EDD),
+	color-stop(1, #B00EAB)
+);
+background-image: -webkit-linear-gradient(bottom, #E87EDD 0%, #B00EAB 100%);
+background-image: -moz-linear-gradient(bottom, #E87EDD 0%, #B00EAB 100%);
+background-image: linear-gradient(to bottom, #E87EDD 0%, #B00EAB 100%);
+float:left;
+}
+
+#text1 {
+	background:rgb(255,255,255);
+	margin:10px;
+	padding: 10px 20px;
+	border-radius:10px;
+	width:650px;
+	float:left;
+}
+
+#image1 {
+	background:url(../img/muffin.jpg);
+	margin:10px;
+	padding: 10px 20px;
+	border-radius:10px;
+	width:170px;
+	height:170px;
+	float:left;
+}
+
+
+
+li{
+	display: inline;
+	padding-right: 3%;
+	list-style-type:none;
+
+}
+
+a {
+	text-decoration:none;
+	color:rgb(255,255,255);
+}
+
+nav {
+	width:100%;
+}
